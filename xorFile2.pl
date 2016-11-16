@@ -16,3 +16,4 @@ sub xor_encode {
    return $enc_str;
 }
 
+; this is comment

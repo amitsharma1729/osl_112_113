@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-
+; changes, this comment
 die "Usage: crc file\n" unless scalar @ARGV >= 1;
 
 undef $/;                  #to read the entire file into buffer. You can optimize the code to read the file chunk at a time.   
